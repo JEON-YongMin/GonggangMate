@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "공강메이트",
+    "slug": "gonggangmate",
+    "version": "1.0.0",
+    "scheme": "gonggangmate",
+    "orientation": "portrait",
+    "splash": {
+      "backgroundColor": "#3B82F6"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gonggangmate.app"
+    },
+    "android": {
+      "package": "com.gonggangmate.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#3B82F6"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
